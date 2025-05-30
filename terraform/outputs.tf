@@ -9,6 +9,6 @@ output "data_factory_url" {
 }
 
 output "storage_account_primary_blob_endpoint" {
-  description = "Endpoint primário de blob da conta de armazenamento."
+  description = "Endpoint primario de blob da conta de armazenamento."
   value       = azurerm_storage_account.adl_storage.primary_blob_endpoint
 }
