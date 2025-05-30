@@ -1,6 +1,8 @@
 # dio-recurso-data-factory-azure
 ## demonstração de projeto que usa o recurso do data factory do azure
 
+#### Os conceitos e resumo foram retirados da leitura da documentação oficial <https://learn.microsoft.com/pt-br/azure/data-factory/>
+
 ### Azure Data Factory: O Orquestrador de Dados na Nuvem
 - O Azure Data Factory (ADF) é um serviço de integração de dados baseado em nuvem, totalmente gerenciado e sem servidor, oferecido pela Microsoft Azure. Ele atua como um orquestrador de fluxos de trabalho ETL/ELT (Extract, Transform, Load / Extract, Load, Transform), permitindo que as organizações criem, agendem e monitorem pipelines de dados que movem e transformam dados entre diversos armazenamentos e serviços de computação, tanto no Azure quanto em ambientes híbridos (on-premises). Em sua essência, o ADF não processa ou armazena dados por si só; ele coordena a movimentação e a transformação. Pense nele como o maestro de uma orquestra de dados, que garante que cada instrumento (serviço de computação, armazenamento) toque no momento certo para produzir a sinfonia final (dados transformados e prontos para uso). O Azure Data Factory é uma ferramenta poderosa e essencial para qualquer estratégia de dados moderna na nuvem, permitindo que as organizações construam pipelines de dados robustos, escaláveis e automatizados para transformar dados brutos em insights valiosos. Ele é a espinha dorsal para muitas arquiteturas de Data Lake e Data Warehousing no Azur
 
