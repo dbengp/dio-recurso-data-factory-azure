@@ -1,7 +1,7 @@
 variable "location" {
-  description = "A região do Azure onde os recursos serão criados."
+  description = "A regiao do Azure onde os recursos serao criados."
   type        = string
-  default     = "East US" # Ou "brazilsouth" ou sua região preferida
+  default     = "East US" # Ou "brazilsouth" ou sua regiao preferida
 }
 
 variable "resource_group_name" {
@@ -11,13 +11,13 @@ variable "resource_group_name" {
 }
 
 variable "storage_account_name" {
-  description = "O nome da conta de armazenamento (Data Lake Gen2). Deve ser globalmente único."
+  description = "O nome da conta de armazenamento (Data Lake Gen2). Deve ser globalmente unico."
   type        = string
-  default     = "adfdemosaicdatalake" # Altere para um nome único!
+  default     = "adfdemosaicdatalake" # Altere para um nome unico!
 }
 
 variable "data_factory_name" {
-  description = "O nome da instância do Azure Data Factory. Deve ser globalmente único."
+  description = "O nome da instancia do Azure Data Factory. Deve ser globalmente unico."
   type        = string
-  default     = "adf-demo-iac-factory" # Altere para um nome único!
+  default     = "adf-demo-iac-factory" # Altere para um nome unico!
 }
